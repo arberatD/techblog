@@ -13,12 +13,17 @@ export default function Home() {
     textColor="black" 
     bgColor="black"/>
     </main>
-    <Image 
+    <div
+justifyContent="center"
+        style={{textAlign: 'center',
+        display: "flex"}} >
+<Image 
         src="/713731.png"
         alt="hier sollte ein Main Foto sein" 
-        width="713" height="731" style={{textAlign: 'center',
-        display: "flex",
-        justifyContent: "center"}} />
+        width="713" 
+        height="731"
+        />
+    </div>
     <Main 
     textColor="black"
     bgColor="red"/>
